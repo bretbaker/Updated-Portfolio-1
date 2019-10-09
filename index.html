@@ -10,8 +10,10 @@
     <title>Bootstrap Portfolio - About Me</title>
 
     <!--Link to Bootstrap CSS (no other stylesheets utilized)-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
 
     <!--Links to Bootstrap required JavaScript-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -30,9 +32,9 @@
 
     <!--Navbar-->
     <nav
-        class="navbar navbar-expand-xs navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-expand-xl navbar-light bg-white pb-0 pt-3 border-bottom border-secondary">
+        class="navbar navbar-expand-xs navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-expand-xl navbar-light bg-secondary pb-0 pt-3 border-bottom border-success">
         <div class="container">
-            <h2 class="mb-0 bg-primary p-3 text-white">Bret Baker</h2>
+            <h2 class="mb-0 bg-success p-3 text-white">Bret Baker</h2>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -40,7 +42,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">About Me<span class="sr-only">(current)</span></a>
+                        <a class="nav-link text-success" href="index.html">About Me<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -55,11 +57,11 @@
 
     <!--Main body content-->
     <div class="container bg-white border border-secondary mt-4 p-4 mb-5">
-        <h2 class="border-bottom border-secondary pb-3 mb-4 text-primary">
+        <h2 class="border-bottom border-secondary pb-3 mb-4 text-success">
             About Me</h2>
         <img class="float-left mt-2 mr-4 mb-3 w-25 border border-secondary" src="assets/images/Headshot-Placeholder-male.png" alt="placeholder portrait">
-        <p class="font-weight-bold">This is not an official portfolio.  This is an assignment requirement for code bootcamp.  I plan to create my official portfolio after I complete the program.</p>
-        <p>In quis condimentum libero. Duis accumsan, purus eu fringilla consectetur, magna nisl interdum turpis, sed
+        <h4 class="font-weight-bold text-dark">This is not an official portfolio.  This is an assignment requirement for code bootcamp.  I plan to create my official portfolio after I complete the program.</h4>
+        <p class="text-dark">In quis condimentum libero. Duis accumsan, purus eu fringilla consectetur, magna nisl interdum turpis, sed
             vehicula arcu lectus quis massa. Nam pharetra turpis purus, ac maximus tortor pharetra ut. Proin semper
             ipsum vitae est feugiat cursus. Etiam egestas, magna vitae dignissim congue, sem massa porttitor arcu,
             tincidunt sollicitudin quam neque eget ante. Suspendisse sit amet malesuada urna. Proin at nibh maximus,
@@ -67,7 +69,7 @@
             eget porttitor. Aenean a ex et libero pellentesque lobortis quis non enim. Integer lorem nulla, facilisis
             eget convallis at, luctus in arcu. Vestibulum vehicula mauris id lectus dictum, ac rutrum elit accumsan. Sed
             at metus quis orci sagittis tincidunt quis vitae neque.</p>
-        <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla viverra viverra
+        <p class="text-dark">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla viverra viverra
             finibus. Aenean vel fermentum erat. Quisque pulvinar eros in leo mollis auctor. Ut blandit nibh eget blandit
             efficitur. Aenean lobortis nibh ullamcorper ipsum finibus, vitae sodales risus mattis. Sed venenatis, mi non
             semper lobortis, magna neque facilisis ligula, vel laoreet arcu enim id nisi. Proin porttitor aliquet nibh,
@@ -86,7 +88,7 @@
 
     <!--Sticky footer-->
     <div style="z-index: -1;"
-        class="container-fluid d-flex justify-content-center align-items-center fixed-bottom text-white bg-secondary border-top border-primary">
+        class="container-fluid d-flex justify-content-center align-items-center fixed-bottom text-white bg-secondary border-top border-success">
         <p class="m-2">Copyright &copy;</p>
     </div>
 

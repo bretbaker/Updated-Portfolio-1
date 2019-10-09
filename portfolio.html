@@ -10,8 +10,10 @@
     <title>Bootstrap Portfolio - About Me</title>
 
     <!--Link to Bootstrap CSS (no other stylesheets utilized)-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+        
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
 
     <!--Links to Bootstrap required JavaScript-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -30,9 +32,9 @@
 
     <!--Navbar-->
     <nav
-        class="navbar navbar-expand-xs navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-expand-xl navbar-light bg-white pb-0 pt-3 border-bottom border-secondary">
+        class="navbar navbar-expand-xs navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-expand-xl navbar-light bg-secondary pb-0 pt-3 border-bottom border-success">
         <div class="container">
-            <h2 class="mb-0 bg-primary p-3 text-white">Bret Baker</h2>
+            <h2 class="mb-0 bg-success p-3 text-white">Bret Baker</h2>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -43,7 +45,7 @@
                         <a class="nav-link" href="index.html">About Me</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                        <a class="nav-link text-success" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
@@ -55,13 +57,13 @@
 
     <!--Main body content-->
     <div class="container bg-white border border-secondary mt-4 p-4 mb-5">
-        <h2 class="border-bottom border-secondary pb-3 mb-4 text-primary">
+        <h2 class="border-bottom border-secondary pb-3 mb-4 text-success">
             Portfolio</h2>
-        <h4>Resume</h4>
+        <h4 class="text-secondary">Resume</h4>
         <ul>
             <li><a href="about:blank" target="_blank">Link to Resume PDF</a></li>
         </ul>
-        <h4>Deployed Projects</h4>
+        <h4 class="text-secondary">Deployed Projects</h4>
         <ul>
             <li><a href="https://bretbaker808.github.io/Basic-Portfolio/" target="_blank">Basic-Portfolio</a></li>
             <li><a href="https://bretbaker808.github.io/Responsive-Portfolio/" target="_blank">Responsive-Portfolio</a></li>
@@ -76,7 +78,7 @@
             <li><a href="https://bretbaker808.github.io/RPS-Multiplayer/" target="_blank">RPS-Multiplayer</a></li>
             <li><a href="https://bretbaker808.github.io/Train-Activity-Basic/" target="_blank">Train-Activity-Basic</a></li>
         </ul>
-        <h4>Project Code</h4>
+        <h4 class="text-secondary">Project Code</h4>
         <ul>
             <li><a href="https://github.com/bretbaker808/Basic-Portfolio" target="_blank">Basic-Portfolio</a></li>
             <li><a href="https://github.com/bretbaker808/Responsive-Portfolio" target="_blank">Responsive-Portfolio</a></li>
@@ -102,7 +104,7 @@
 
     <!--Sticky footer-->
     <div style="z-index: -1;"
-        class="container-fluid d-flex justify-content-center align-items-center fixed-bottom text-white bg-secondary border-top border-primary">
+        class="container-fluid d-flex justify-content-center align-items-center fixed-bottom text-white bg-secondary border-top border-success">
         <p class="m-2">Copyright &copy;</p>
     </div>
 

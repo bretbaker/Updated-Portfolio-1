@@ -10,8 +10,10 @@
     <title>Bootstrap Portfolio - About Me</title>
 
     <!--Link to Bootstrap CSS (no other stylesheets utilized)-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
 
     <!--Links to Bootstrap required JavaScript-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -30,9 +32,9 @@
 
     <!--Navbar-->
     <nav
-        class="navbar navbar-expand-xs navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-expand-xl navbar-light bg-white pb-0 pt-3 border-bottom border-secondary">
+        class="navbar navbar-expand-xs navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-expand-xl navbar-light bg-secondary pb-0 pt-3 border-bottom border-success">
         <div class="container">
-            <h2 class="mb-0 bg-primary p-3 text-white">Bret Baker</h2>
+            <h2 class="mb-0 bg-success p-3 text-white">Bret Baker</h2>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -46,7 +48,7 @@
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                        <a class="nav-link text-success" href="contact.html">Contact<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
@@ -55,16 +57,16 @@
 
     <!--Main body content-->
     <div class="container bg-white border border-secondary mt-4 p-4 mb-5">
-        <h2 class="border-bottom border-secondary pb-3 mb-4 text-primary">
+        <h2 class="border-bottom border-secondary pb-3 mb-4 text-success">
             Contact</h2>
-        <h4>GitHub:</h4>
-        <p><a href="https://github.com/bretbaker808">https://github.com/bretbaker808</a></p>
-        <h4>LinkedIn:</h4>
+        <h4 class="text-secondary">GitHub:</h4>
+        <p><a href="https://github.com/bretbaker808" target="_blank">https://github.com/bretbaker808</a></p>
+        <h4 class="text-secondary">LinkedIn:</h4>
         <p><a href="https://www.linkedin.com/">https://www.linkedin.com/</a></p>
-        <h4>Email:</h4>
-        <p><a href="mailto:sampleemail@sampleemail.com" target="_top">bretbaker808@gmail.com</a></p>
-        <h4>Phone:</h4>
-        <p><a href="tel:+15555551212">813-892-0410</a></p>
+        <h4 class="text-secondary">Email:</h4>
+        <p><a href="mailto:sampleemail@sampleemail.com" target="_top">sampleemail@sampleemail.com</a></p>
+        <h4 class="text-secondary">Phone:</h4>
+        <p><a href="tel:+15555551212">555-555-5555</a></p>
     </div>
 
 </body>
